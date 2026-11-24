@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/Ikdek/staybook-gitops.git
     targetRevision: HEAD
-    path: apps/staybook
+    path: staybook-gitops/apps/staybook
   destination:
     server: https://kubernetes.default.svc
     namespace: staybook

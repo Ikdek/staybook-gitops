@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/Ikdek/staybook-gitops.git
     targetRevision: HEAD
-    path: apps/concierge
+    path: staybook-gitops/apps/concierge
   destination:
     server: https://kubernetes.default.svc
     namespace: staybook
