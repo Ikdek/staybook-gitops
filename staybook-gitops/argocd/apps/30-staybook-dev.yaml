@@ -14,7 +14,7 @@ spec:
     path: staybook-gitops/overlays/dev
   destination:
     server: https://kubernetes.default.svc
-    namespace: staybook-dev
+    namespace: staybook-prod
   syncPolicy:
     automated:
       prune: true
