@@ -1,9 +1,0 @@
-# ConfigMap de test : sert à vérifier que Argo CD crée (puis supprime, avec prune) les ressources ajoutées/retirées dans Git.
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: test-config
-  namespace: staybook
-data:
-  message: "Hello depuis GitOps"
-  version: "1"
